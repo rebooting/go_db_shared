@@ -1,0 +1,3 @@
+CREATE DATABASE example;
+CREATE USER IF NOT EXISTS cockroach;
+GRANT ALL ON DATABASE example TO cockroach;
